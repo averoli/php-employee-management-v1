@@ -1,6 +1,12 @@
 <?php
 
 require_once('loginManager.php');
-$email = $_POST['email'];
-$pass = $_POST['pass'];
+
+
+if(isset($_POST['login'])){
+    authUser();
+} else {
+    destroySession();
+}
+    
 
