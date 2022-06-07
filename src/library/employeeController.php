@@ -1,6 +1,8 @@
 
 <?php
-
+ob_start();
+require_once('sessionHelper.php');
+ob_flush();
 require_once('employeeManager.php');
 
 if (isset($_GET['action']) && $_GET['action'] == 'getAll') {

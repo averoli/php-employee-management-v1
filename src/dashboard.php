@@ -34,12 +34,6 @@
                 <tr id="employeeRow">
 
                 </tr>
-                <!-- <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr> -->
             </tbody>
         </table>
         <form action="">
@@ -47,6 +41,7 @@
             <input type="email" id="addEmail" />
             <button type="submit" method="POST" id="addEmployee">+</button>
         </form>
+
     </main>
     <?php include_once '../assets/php/footer.php' ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

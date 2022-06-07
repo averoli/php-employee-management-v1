@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 function authUser()
 {
     //GET FORM INPUT VALUES
@@ -14,6 +14,8 @@ function authUser()
 
     //VERIFICATION
     if ($email == $useremail && password_verify($pass, $userpassword)) {
+        $_SESSION['startTime'] = time();
+     
         header("Location: ../dashboard.php");
     } else {
         header("Location: ../../index.php");

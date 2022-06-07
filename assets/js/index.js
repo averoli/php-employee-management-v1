@@ -38,7 +38,7 @@ function getEmployeeForm() {
   const addId = 9;
   document.getElementById("addName").addEventListener("change", function (e) {
     Data.name = e.target.value;
-    console.log("Data.name", Data.name);
+    //console.log("Data.name", Data.name);
   });
   document.getElementById("addEmail").addEventListener("change", function (e) {
     Data.email = e.target.value;

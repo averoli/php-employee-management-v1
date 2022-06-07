@@ -14,8 +14,6 @@ function getAllData()
 }
 
 
-
-
 function addEmployee(array $newEmployee)
 {
     // TODO implement it
